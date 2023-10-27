@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Playfair+Display:ital,wght@1,500&family=Roboto:ital,wght@1,100&display=swap');
+ul
+{
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%
+
+}
+.aust{
+    width: 100%;
+}
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+li a:hover 
+{
+    background-color: #111;
+}
+
+li
+{
+    float: left;
+    margin:0;
+
+}
+li a
+{
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+
+}
+.container
+{
+    position: relative;
+    margin: 0;
+}
+.container .content
+{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.container:hover .content
+{
+    opacity: 1;
+}
+.text
+{
+    margin:auto;
+    text-align: center;
+     font-family: 'Noto Serif', serif;
+    font-size: 20px;
+    color: rgb(23, 124, 124);
+    padding: 20px;
+}
+.image
+{
+    text-align: center;
+    margin:auto;
+}
+.me
+{
+    border-radius: 50%;
+}
+.heading 
+{
+    margin-top: 30%;
+}
+
+.har
+{
+    margin-left: 555px;
+    text-align: justify;
+    justify-content: center;
+    border-radius:8px; 
+}
+
+.main
+{
+    display: flex;
+    justify-content: center;
+    float:right;    
+}
+
+h3 
+{
+    color: black;
+}
+
+.para
+{
+   
+    color:rgb(9, 152, 105);
+    text-align: justify;
+    width: 90%;
+    padding: 30px; 
+}
+.para2
+{
+    margin-top: 5px;
+}
+
+.proj
+{
+    margin-left: 555px;
+    text-align: justify;
+    justify-content: center;
+    border-radius: 8px; 
+    margin-top: 14px; 
+}
+.line 
+{
+   margin-top: 590px;
+}
+.head 
+{
+    text-align: center; 
+    font-size: 30px;
+    color:rgb(23, 124, 124);
+}
+hr 
+{
+    width:20%;
+    margin: auto; 
+    margin-top: 40%;
+    border-color: lightseagreen;
+    border-width:3px;
+   
+}
+.line-hr 
+{
+    margin-top: 2px; 
+}
+* 
+{
+    box-sizing: border-box;
+  
+}
+
+@media (max-width: 405px) 
+{
+    .pics 
+    {
+        max-width: 100%;
+    }
+    .up, .down 
+    {
+        flex-basis: 100%; 
+    }
+    .pic1, .pic2 
+    {
+        max-width: 100%; 
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+}
+.pics 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up, .down 
+{
+    flex-basis: 50%;
+}
+
+.pic1, .pic2 
+{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
